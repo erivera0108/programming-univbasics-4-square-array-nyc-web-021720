@@ -3,9 +3,8 @@ def square_array(array)
   result = [ ]
   counter = 0 
   while counter < array.length do
-   result << Math.sqrt(array[counter])
+   result << array[counter] ** 2 
     counter += 1 
   end
-  result
 end
 
